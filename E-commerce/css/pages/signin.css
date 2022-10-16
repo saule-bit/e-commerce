@@ -1,0 +1,81 @@
+.signin-page {
+    background: linear-gradient(to right, #FFEEB4 50%, #fff 50%);
+}
+.signin-page-inner {
+    align-items: center;
+}
+.left-back-img, .right-signin-form {
+    width: 50%;
+    height: 90vh;
+}
+.left-back-img img {
+    width: 50%;
+    margin: 0 auto;
+}
+.form-signin {
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+}
+.form-signin h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.signin-inputs {
+    margin-top: 30px;
+    width: 100%;
+    align-items: center;
+}
+.signin-inputs input {
+    margin-bottom: 12px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background-color: var(--bg-light);
+    padding: 16px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.signin-inputs input:active {
+    margin-bottom: 12px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background-color: var(--bg-light);
+    padding: 16px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.signin-inputs input:not(:first-child) {
+    background-image: url(../../images/Icon/eye-cls.svg);
+    background-position: 97% 50%;
+    background-repeat: no-repeat;
+}
+.check-pass-conditions {
+    align-self: flex-start;
+    margin-bottom: 28px;
+}
+.check-pass-conditions span {
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.check-pass-conditions span i {
+    opacity: 0.5;
+    margin-right: 10px;
+}
+.i-agree {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: 10px;
+}
+.signin-btn {
+    margin: 40px auto 20px;
+}
