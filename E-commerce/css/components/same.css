@@ -33,6 +33,9 @@
     width: 100%;
     cursor: pointer;
 }
+.active-catalog-page {
+    opacity: 1;
+}
 .btn:hover {
     opacity: 0.4;
 }
