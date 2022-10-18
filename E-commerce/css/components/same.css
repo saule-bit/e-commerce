@@ -10,6 +10,9 @@
     --light-blue: rgba(86, 83, 212, 1);
     --crimson: rgba(215, 64, 64, 1);
 }
+.dark-back {
+    background-color: var(--bg-dark);
+}
 .wrapper {
     margin: 0 auto;
     width: 85%;
