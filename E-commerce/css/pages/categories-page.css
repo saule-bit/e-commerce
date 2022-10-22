@@ -29,6 +29,7 @@
 }
 .vector_womenwear{
     position: absolute;
+    height: 95%;
     left: 0.2%;
     top: 0.4%;
     border-radius: 32px;
@@ -89,6 +90,7 @@
 }
 .vector_sportgoods{
     position: absolute;
+    height: 95%;
     right: 0.2%;
     top: 0.4%;
     border-radius: 32px;
