@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 header{
     background-color: var(--primary);
+    z-index: 1000;
 }
 .header-conteiner {
+    margin-left: calc(-50vw + 50%);
+    width: 100vw;
     align-items: center;
     justify-content: space-between;
     height: 12vh;
-    z-index: 1000;
     align-items: center;
     background-color: var(--primary);
     border-bottom: 1px solid rgba(89, 89, 89, 0.24);
