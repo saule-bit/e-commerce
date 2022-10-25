@@ -1,0 +1,54 @@
+@media (max-width: 1200px) {
+    /* Header */
+    .center-part-heder {
+        width: 65%;
+    }
+    
+}
+
+@media (max-width: 1100px) {
+    /* Header */
+    .center-part-heder {
+        width: 77%;
+    }
+}
+@media (max-width: 900px) {
+    /* Header */
+    .header-conteiner {
+        width: 90%;
+        margin: 0;
+    }
+    .logo-part {
+        width: 10%;
+    }
+    .center-part-heder {
+        width: 88%;
+    }
+    .conaction-options {
+        display: none;
+    }
+    .header-conteiner .conaction-options-vertical {
+        display: flex;
+    }
+}
+@media (max-width: 760px) {
+    /* Header */
+    .search-conteiner,
+    .burger-katalog {
+        width: 9%;
+    }
+    .search-conteiner input {
+        display: none;
+    }
+    .center-part-heder nav {
+        width: 78%;
+    }    
+    .burger-katalog span {
+        display: none;
+    }
+    .burger-katalog img {
+        width: 100%;
+        margin: 0;
+        min-width: 18px;
+    }
+}

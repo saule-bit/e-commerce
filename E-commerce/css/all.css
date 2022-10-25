@@ -6,3 +6,6 @@
 @import url(pages/news-page.css);
 @import url(pages/modal-add.css);
 @import url(pages/product-page.css);
+
+@import url(adaptic/dcAdapt.css);
+@import url(adaptic/fontAdaptic.css);
