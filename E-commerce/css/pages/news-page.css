@@ -2,11 +2,13 @@
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 .item__news-page {
     position: relative;
+    min-width: 250px;
     width: 23%;
-    height: 37vh;
+    height: 32%;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -33,6 +35,7 @@
 .content__item__news-page {
     align-items: center;
     border-radius: 32px;
+    border: 0.5px solid rgba(0, 0, 0, 0.208);
     background-color: #fff;
     padding-top: 20px;
 }

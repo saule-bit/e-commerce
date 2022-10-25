@@ -1,3 +1,8 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--dark);
+}
 :root {
     /*colors*/
     --primary: #FFEEB4;
@@ -15,7 +20,16 @@
 }
 .wrapper {
     margin: 0 auto;
-    width: 85%;
+    width: 100%;
+    max-width: 1366px;
+}
+.in-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1366px;
+}
+.d-flex {
+    display: flex;
 }
 .d-flex-r {
     display: flex;
