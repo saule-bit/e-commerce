@@ -9,38 +9,6 @@
     <link rel="stylesheet" type="" href="css/all.css">
 </head>
 <body>
-  <!-- <header>
-    <div class="header-conteiner wrapper d-flex-r">
-      <div class="logo-part d-flex-r">
-        <img src="images/Icon/LOGO.png" alt="">
-      </div>
-      <div class="center-part-heder d-flex-r">
-        <div class="burger-katalog d-flex-r">
-          <img src="images/Icon/menu-Icon.svg" alt="">
-          <span>Каталог</span>
-        </div>
-        <nav>
-          <ul class="header-nav d-flex-r">
-            <li>Подарочные карты <img src="images/Icon/arrow-down.svg" alt=""></li>
-            <li>О нас <img src="images/Icon/arrow-down.svg" alt=""></li>
-            <li>Оплата и доставка <img src="images/Icon/arrow-down.svg" alt=""></li>
-          </ul>
-        </nav>
-        <form action="" class="search-conteiner d-flex-r">
-          <button><img src="images/Icon/search-icon.svg" alt=""></button>
-          <input type="text" placeholder="Поиск">
-        </form>
-
-  
-      </div>
-      <div class="conaction-options d-flex-r">
-        <a href=""><img src="images/Icon/heart-icon.svg" alt=""></a>
-        <a href=""><img src="images/Icon/Gift-icon.svg" alt=""></a>
-        <a href=""><img src="images/Icon/Cart-icon.svg" alt=""></a>
-        <a href=""><img src="images/Icon/User-icon.svg" alt=""></a>
-      </div>
-    </div>
-  </header> -->
   <main>
     <section class="signin-page">
         <div class="signin-page-inner wrapper d-flex-r">
@@ -48,30 +16,22 @@
                 <img src="images/background/cuate.svg" alt="">
             </div>
             <form action="" method="POST" class="form-signin d-flex-c">
-                <h1>Регистрация</h1>
-                <span class="note-txt grey">Займет буквально пару минут</span>
+                <img src="images/Icon/Optical.svg" class="optical" alt="">
+                <h1>Добро пожаловать!</h1>
+                <span class="note-txt grey">Введите ваши учетные данные</span>
                 <fieldset class="signin-inputs d-flex-c">
-                    <input type="email" placeholder="Email" class="email-text">
-                    <input type="password" placeholder="Придумайте пароль" class="pass1">
-                    <input type="password" placeholder="Подтвердите пароль" class="pass2">
+                    <input type="email" placeholder="Email или номер телефона" class="email-text">
+                    <input type="password" placeholder="Пароль" class="pass1">
                 </fieldset>
-                <fieldset class="check-pass-conditions">
-                    <span class="check-pass-conditions1 d-flex-r l-grey">
-                        <i class="fa-solid fa-check"></i> Не менее 8 символов 
-                    </span>
-                    <span class="check-pass-conditions2 d-flex-r l-grey">
-                        <i class="fa-solid fa-check"></i> Не менее 1 цифры
-                    </span>
-                    <span class="check-pass-conditions3 d-flex-r l-grey">
-                        <i class="fa-solid fa-check"></i> Заглавные и строчные буквы
-                    </span>
-                </fieldset>
-                <fieldset class="d-flex-r">
-                    <input type="radio" name="" id="">
-                    <p class="i-agree grey">Согласен с условиями <a href="" class="a a-d">Правил пользования торговой площадки и правилами возврата</a></p>
-                </fieldset>
-                <button type="submit" class="signin-btn btn">Зарегистрироваться</button>
-                <span>Уже есть аккаунт? <a href="" class="a">Войти</a></span>
+                <div class="forgot-pass d-flex">                   
+                     <a href="">Забыли пароль?</a>
+                </div>
+                <button type="submit" class="signin-btn btn">Войти</button>
+                <button class="google-signin btn d-flex">
+                    <img src="images/Icon/Google.png" alt="">
+                    Войти через Google
+                </button>
+                <span>Нет аккаунта? <a href="" class="a">Зарегистрироваться</a></span>
             </form>
         </div>
     </section>

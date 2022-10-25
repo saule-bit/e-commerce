@@ -44,6 +44,10 @@ header{
     height: 7vh;
     font-weight: 400;
     overflow: hidden;
+    cursor: pointer;
+}
+.burger-katalog:hover {
+    opacity: 0.8;
 }
 .burger-katalog img {
     margin-right: 5px;
@@ -110,7 +114,7 @@ header{
 .search-conteiner input:active {
     border: none;
     outline: none;
-    background-color: #FFEEB4;
+    background-color: var(--bg-dark);
 }
 .conaction-options {
     justify-content: space-around;

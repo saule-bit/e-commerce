@@ -51,4 +51,12 @@
         margin: 0;
         min-width: 18px;
     }
+
+    /* Signin */
+    .left-back-img {
+        display: none;
+    }
+    .form-signin {
+        width: 70%;
+    }
 }
