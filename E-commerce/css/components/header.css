@@ -52,6 +52,7 @@ header{
 .burger-katalog img {
     margin-right: 5px;
     width: 30%;
+    max-width: 28px;
     filter: invert(1);
 }
 .burger-katalog span {
