@@ -1,0 +1,96 @@
+.about__header-nav{
+    font-weight: 600;
+}
+.dark-back {
+    background-color: var(--bg-dark);
+    height: 711px;
+    /* width: 1440px; */
+    left: 0px;
+    top: 80px;
+}
+.about-page-content {
+    height: 220px;
+    width: 1264px;
+    margin-left: 80px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.shops-about-page-content{
+    margin-top: 0;
+}
+.title__shops-about-page-content,
+.title__partners-about-page-content {
+    box-sizing: border-box;
+    display: block;
+    height: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.title__shops-about-page-content{
+    width: 131px;
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+.items__shops-about-page{
+
+    gap: 48px;
+    top: 0;
+    margin-bottom: 80px;
+}
+.item__shops-about-page{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    height: 220px;
+    width: 280px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    gap: 48px;
+    background-color:rgba(255, 255, 255, 1);
+    position: relative;
+
+}
+.content__item__shops-about-page {
+    align-items: center;
+    background-color:rgba(255, 255, 255, 1);
+    width: 279px;
+    height: 220px;
+    border-radius: 32px;
+    left: 88px;
+}
+.img__content_item_shops-about-page{
+    position: relative;
+
+    height: 220px;
+    width: 280px;
+    gap: 48px;
+    border-radius: 32px;
+}
+.text__content_item_shops-about-page {
+    position: absolute;
+    width: 184px;
+    height: 52px;
+    left: 48px;
+    top: 159px;
+    padding: 16px 20px 16px 20px;
+    margin-bottom: 2px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    border-bottom: none;
+}

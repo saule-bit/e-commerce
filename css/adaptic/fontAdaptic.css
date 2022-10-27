@@ -1,0 +1,19 @@
+@media (min-width: 767px){
+    .burger-katalog span,
+    .search-conteiner input {
+        font-size: calc(10px + (8 + 8 * 0.7) * ((100vw - 320px) / 1440));
+    }
+    .header-nav li {
+        font-size: calc(10px + (6 + 6 * 0.7) * ((100vw - 320px) / 1440));
+    }
+   
+   }
+@media (min-width: 1440px) and ( max-width: 1978px) {
+    .burger-katalog span,
+    .search-conteiner input {
+        font-size: 18px;
+    }
+    .header-nav li {
+        font-size: 18px;
+    }
+}
