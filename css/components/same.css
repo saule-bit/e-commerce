@@ -1,0 +1,83 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--dark);
+}
+:root {
+    /*colors*/
+    --primary: #FFEEB4;
+    --secondary: #3E27CB;
+    --bg-dark: #3F3F3F;
+    --bg-light: #F5F5F5;
+    --dark: rgba(0, 0, 0, 1);
+    --dark-grey: rgba(0, 0, 0, 0.2);
+    --light-green: rgba(166, 216, 43, 1);
+    --light-blue: rgba(86, 83, 212, 1);
+    --crimson: rgba(215, 64, 64, 1);
+}
+.dark-back {
+    background-color: var(--bg-dark);
+}
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1510px;
+}
+.in-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1366px;
+}
+.d-flex {
+    display: flex;
+}
+.d-flex-r {
+    display: flex;
+    flex-direction: row;
+}
+.d-flex-c {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    background-color: var(--secondary);
+    border-radius: 12px;
+    padding: 16px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+.active-catalog-page {
+    opacity: 1;
+}
+.btn:hover {
+    opacity: 0.4;
+}
+.active {
+    opacity: 1;
+}
+a, p, h1, h2, h3, h4, h5, h6, span, li {
+    font-family: 'Montserrat', sans-serif;
+}
+.red-text {
+    color: red;
+}
+.green-text {
+    color: #00D715;
+}
+.l-grey {
+    color: #A7A7A7;
+}
+.grey {
+    color: #00000079;
+}
+.a {
+    color: #3E27CB;
+    font-weight: 500;
+}
+.a-d {
+    text-decoration: underline;
+}
